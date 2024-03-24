@@ -17,9 +17,8 @@ const Hero = () => {
           <CardHeader className="text-3xl">RexAuth</CardHeader>
           <CardBody>
             <p>
-              This is a boilerplate for mern authentication that stores JWT
-              tokens in HTTP-Only cookie. It also uses Redux Toolkit and NextUI
-              library
+              Mern authentication that stores JWT tokens in HTTP-Only cookie. It
+              also uses Redux Toolkit and NextUI library
             </p>
           </CardBody>
 
