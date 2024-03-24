@@ -5,8 +5,7 @@ import { NextFunction, Request, Response } from "express";
 
 const protect = asyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {
-    let token;
-    token = req.cookies.jwt;
+    const token = req.cookies.jwt;
     if (!token) {
       res.status(401);
       throw new Error("Not authorized, no token");
